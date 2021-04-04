@@ -47,7 +47,7 @@ class ClockActivity : AppWidgetProvider() {
         appWidgetId : Int,
         newOptions: Bundle
     ){
-        Log.d("hello", "from resize etc.")
+        Log.d("hello", "updating clock hand in resize for no reason")
         RemoteViews(context.packageName, R.layout.clock_layout).also { views->
             val time: Date = Calendar.getInstance().time
             val month = time.month
