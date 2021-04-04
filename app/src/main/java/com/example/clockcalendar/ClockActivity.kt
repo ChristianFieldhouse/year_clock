@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.clock_layout)
-        Log.d("hello", "from resize etc.")
+        Log.d("hello", "this should not be called")
     }
 }
 
