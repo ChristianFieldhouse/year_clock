@@ -6,7 +6,7 @@
         android:id="@+id/background_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/ic_drawing_cropped_plain_white" />
+        android:src="@drawable/ic_clock_face_less_transparent" />
     <ImageView
         android:id="@+id/clock_hand"
         android:layout_width="match_parent"

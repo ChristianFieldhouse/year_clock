@@ -7,9 +7,9 @@
           <path
 			android:pathData="M40.0,40.0 L61.72886881921676,6.4164287212144515"
 			android:strokeLineJoin="miter"
-              android:strokeWidth="0.26458332"
+              android:strokeWidth="1"
               android:fillColor="#00000000"
-              android:strokeColor="#00ffff"
+              android:strokeColor="#ffffff"
               android:strokeLineCap="butt"/>
         </vector>
         

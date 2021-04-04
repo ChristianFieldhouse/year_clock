@@ -10,9 +10,9 @@ def line(to):
           <path\n"""
               + f"\t\t\tandroid:pathData=\"M40.0,40.0 L{40+to[0]},{40+to[1]}\"\n"
               + """\t\t\tandroid:strokeLineJoin="miter"
-              android:strokeWidth="0.26458332"
+              android:strokeWidth="1"
               android:fillColor="#00000000"
-              android:strokeColor="#00ffff"
+              android:strokeColor="#ffffff"
               android:strokeLineCap="butt"/>
         </vector>
         """
