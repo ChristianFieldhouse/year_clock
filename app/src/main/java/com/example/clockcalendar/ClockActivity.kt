@@ -24,7 +24,7 @@ class ClockActivity : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray
     ) {
-        Log.v("hi", "hello");
+        Log.v("hi", "updating");
         // Perform this loop procedure for each App Widget that belongs to this provider
         appWidgetIds.forEach { appWidgetId ->
             RemoteViews(context.packageName, R.layout.clock_layout).also { views->
