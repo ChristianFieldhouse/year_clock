@@ -15,7 +15,7 @@ import java.util.*
 
 class ClockActivity : AppWidgetProvider() {
 
-    fun getDrawableName(ctx: Context, str: String?): Int {
+    private fun getDrawableName(ctx: Context, str: String?): Int {
         return ctx.resources.getIdentifier(str, "drawable", ctx.packageName)
     }
 
@@ -31,7 +31,7 @@ class ClockActivity : AppWidgetProvider() {
                 val time: Date = Calendar.getInstance().time
                 val month = time.month
                 val day = time.date
-                val id_string = "ic_clock_hand_" + month + "_" + day
+                val id_string = "ic_clock_hand_" + month + "_" + (day - 1)
                 Log.v("id", id_string)
                 val myhand = getDrawableName(context, id_string)
                 //val myhand = getResId(id_string, drawable::class.java)
